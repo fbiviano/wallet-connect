@@ -27,6 +27,8 @@ export default defineConfig({
         },
       },
       external: ['jquery'],
+      manualChunks: undefined, // disable code splitting
+
     },
   },
 })
