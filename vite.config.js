@@ -18,7 +18,7 @@ export default defineConfig({
     rollupOptions: {
       input: './src/main.js',
       output: {
-        format: 'umd',
+        format: 'esm',
         entryFileNames: 'main.js',
         esModule: false,
         compact: true,
@@ -27,8 +27,6 @@ export default defineConfig({
         },
       },
       external: ['jquery'],
-      manualChunks: undefined, // disable code splitting
-
     },
   },
 })
