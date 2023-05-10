@@ -4,7 +4,7 @@ function animateTitle() {
   // Get the element from the DOM
   const h1Inner = document.querySelector('span.h1-inner')
 
-  // If it exists, play the aniamtion
+  // If it exists, play the aniamtionn
   if (h1Inner) {
     gsap.to(h1Inner, {
       y: 0,
