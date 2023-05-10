@@ -4,7 +4,7 @@ function createBadge() {
   badge.classList.add('js-badge')
   badge.innerText = 'It works!'
 
-  // Add click envent to remove the badge from the DOM
+  // Add click envent to remove the badge from the DOMMMM
   badge.addEventListener('click', (event) => {
     event.preventDefault()
     badge.remove()
