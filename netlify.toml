@@ -1,8 +1,0 @@
-[[plugins]]
-  package = "netlify-plugin-copy"
-
-  [plugins.inputs]
-  patterns = [
-    "_headers"
-  ]
-  destination = "dist/"
